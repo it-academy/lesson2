@@ -1,0 +1,6 @@
+[13-Sep-2017 16:36:38 UTC] PHP Fatal error:  Class 'Duck' not found in /home/ubuntu/workspace/test/test.php on line 22
+[13-Sep-2017 16:36:38 UTC] PHP Stack trace:
+[13-Sep-2017 16:36:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/test.php:0
+[13-Sep-2017 16:45:16 UTC] PHP Fatal error:  Class 'Duck' not found in /home/ubuntu/workspace/test/test.php on line 22
+[13-Sep-2017 16:45:16 UTC] PHP Stack trace:
+[13-Sep-2017 16:45:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/test.php:0
