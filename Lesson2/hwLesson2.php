@@ -1,16 +1,31 @@
-<?php 
-echo 'Hello' . PHP_EOL;
+<?php
 
-class A {
-    public $var;
+class Photographer {
+    
+   public function MakePhoto()
+   {
+      echo "Make photo" . PHP_EOL;   
+      $this->photoby(); 
+   
+   }
+    
+}
+class Duck extends Photographer {
+    protected function photoby() {
+       echo "about duck" . PHP_EOL;
+  
+    }
+}
+class Dog extends Photographer {
+    protected function photoby() {
+        echo "about dog" . PHP_EOL;
+  
+    }
 }
 
-$a1 = new A();
-$a1 = $a2;
+$a1 = new Duck();
+$a1->MakePhoto();
 
-$a1->var = 10;
-$a2->var = 20;
-
-echo $a1->var . PHP_EOL;
-echo $a2->var . PHP_EOL;
+$a2 = new Dog();
+$a2->MakePhoto();
 ?>
